@@ -1,5 +1,5 @@
 #include <iostream>
-#include <set>
+// #include <set>
 
 using namespace std;
 
@@ -21,7 +21,7 @@ int main()
             distinctChars.push_back(sheOrHe[i]);
     }
     //-----
-    
+
     // memory 200 kb
     // set<char>distinctChars;
     // for(int i=0;i<sheOrHe.size();i++){
