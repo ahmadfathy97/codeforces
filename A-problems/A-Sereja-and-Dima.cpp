@@ -11,9 +11,7 @@ int main()
     int left = 0;
     int right = num -1;
     for(int i=0;i<num;i++){
-        int x;
-        cin>>x;
-        cards[i] = x;
+        cin>>cards[i];
     }
 
     for(int i =0; i<num; i++){
